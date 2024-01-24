@@ -1,0 +1,96 @@
+.pingpong-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  padding: 22px;
+  background-color: white;
+}
+
+.pingpong-text {
+  margin: 0;
+}
+
+div {
+  width: 400px;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: whitesmoke;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.score {
+  margin-top: 20px;
+}
+
+button {
+  font-family: Montserrat;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: background-color 0.15s, opacity 0.15s;
+  cursor: pointer;
+}
+
+select {
+  font-family: Montserrat;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+.addPlayerOne-btn{
+  background-color: rgb(68, 214, 68);
+}
+
+.addPlayerOne-btn:hover {
+  background-color: rgb(23, 172, 23);
+}
+
+.addPlayerTwo-btn {
+  background-color: rgb(82, 82, 240);
+}
+
+.addPlayerTwo-btn:hover {
+  background-color: rgb(20, 20, 228);
+}
+
+.reset-btn {
+  background-color: rgb(253, 90, 90);
+}
+
+.reset-btn:hover {
+  background-color: rgb(243, 29, 29);
+}
+
+.score{
+  font-weight: bold;
+  font-size: 35px;
+}

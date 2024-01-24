@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ping Pong Scorekeeper</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="pingpong2.css">
+  </head>
+  <body>
+    <div class="pingpong-container">
+      <img src="pingpongphoto.jpg">
+      <div class="pingpong-text">
+        <p class="title">Ping Pong Scorekeeper</p>
+        <p>Use the buttons below to keep score</p>
+        <p class="score">
+          <span id="playerOne-score">0</span> to 
+          <span id="playerTwo-score">0</span>
+        </p>
+        <p><label for ="finalScore">Playing to:</label>
+          <select name="finalScore" id="finalScore">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+          </select>
+        </p>
+        <div class="buttons">
+          <button class="addPlayerOne-btn" onclick="playerOneFunc()">+1 Player One</button>
+          <button class="addPlayerTwo-btn" onclick="playerTwoFunc()">+1 Player Two</button>
+          <button class="reset-btn" onclick="resetFunc()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="pingpong2.js"></script>
+  </body>
+</html>
